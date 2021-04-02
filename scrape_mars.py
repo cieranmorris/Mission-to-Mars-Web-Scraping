@@ -17,6 +17,8 @@ def scrape():
     url = "https://redplanetscience.com"
     browser.visit(url)
 
+
+    #Find the latest News Article and it's associated Paragraph Text
     #HTML object
     html = browser.html
         
@@ -30,7 +32,7 @@ def scrape():
     paragraph_text = browser.find_by_css(".article_teaser_body")[0].text
 
 
-
+    #Scrape for Mars Space Featured Image
     #Create URL and browser
     mars_image_url = "https://spaceimages-mars.com"
     browser.visit(mars_image_url)
@@ -73,6 +75,7 @@ def scrape():
     mars_facts_table = mars_facts_df.to_html()
 
 
+    #Mars Hemispheres Scraping
     mars_hemispheres_url = "https://marshemispheres.com"
     browser.visit(mars_hemispheres_url)
 
