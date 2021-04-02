@@ -10,7 +10,7 @@
 
     <body>
         <div class = "container">
-            <div class = "jumbotron hex-center">
+            <div class = "jumbotron text-center">
                 <h1>Mission to Mars</h1>
                 <p>
                     <a class = "btn btn-primary btn-lg" href = "/scrape" role = "button">Scrape Web Data</a>
@@ -22,11 +22,24 @@
         <!-- Mars News Section -->
         <div class = "row">
             <div class = "col-md-12">
-                <h2>Mars News</h2>
+                <h2>Latest Mars News</h2>
                 <h4>
                     {{mars.article_title}}
                 </h4>
                 <p>{{mars.paragraph_text}}</p>
+            </div>
+        </div>
+
+
+        <div class ="row">
+            <div class = "col-md-6">
+                <h2>Featured Mars Image</h2>
+                <!-- Figure out image placement here -->
+                <img {{featured_image}}>
+            </div>
+            <div class = "col-md-6">
+                <h2>Mars Facts</h2>
+
             </div>
         </div>
     </body>
