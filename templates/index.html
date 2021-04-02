@@ -53,19 +53,20 @@
             </div>
         </div>
 
-        {% for hemisphere_links, value in mars.hemisphere_links %}
+        {% for hemisphere in mars.hemisphere_links %}
         <div class = "row equal">
             <div class = "col-md-3">
-                <dt>{{ hemisphere_links}}</dt>
-                <dd>{{ value }}</dd>
-                
+                <li>{{mars.hemisphere_links|e }}</li>  
             </div>
+
             <div class = "col-md-3">
                 content2
             </div>
+
             <div class = "col-md-3">
                 content3
             </div>
+
             <div class = "col-md-3">
                 content4
             </div>
