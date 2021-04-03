@@ -53,25 +53,25 @@
             </div>
         </div>
 
-        {% for hemisphere in mars.hemisphere_links %}
-        <div class = "row equal">
+      
+        <div class = "row">
             <div class = "col-md-3">
-                <li>{{mars.hemisphere_links|e }}</li>  
+                <img class = "img-fluid" src = "{{mars.hemisphere_links[0].img_url}}" alt = "Hemisphere 1">
+                <h4>{{mars.hemisphere_links[0].title}}</h4>>
             </div>
 
             <div class = "col-md-3">
-                content2
+                <img class = "img-fluid" src = "{{mars.hemisphere_links[1].img_url}}" alt = "Hemisphere 2">
             </div>
 
             <div class = "col-md-3">
-                content3
+                <img class = "img-fluid" src = "{{mars.hemisphere_links[2].img_url}}" alt = "Hemisphere 3">
             </div>
 
             <div class = "col-md-3">
-                content4
+                <img class = "img-fluid" src = "{{mars.hemisphere_links[3].img_url}}" alt = "Hemisphere 4">
             </div>
         </div>
-        {% endfor %}
 
     </body>
 </html>
