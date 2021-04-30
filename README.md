@@ -2,11 +2,11 @@
 
 This project encompassed the creation of a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
-## NASA Mars News Scraping 
+## NASA Mars News Scraping - News Title and Paragraph Text
 
 Initial scraping was completed using programming dependencies including Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
-* Scrape the [Mars News Site](https://redplanetscience.com/) and collect the latest News Title and Paragraph Text. Save these items to variables so that you can use them later. 
+* The website of interest to scrape and collect information regarding the Mission to Mars was the [Mars News Site](https://redplanetscience.com/). Importantly, the latest News Title and Paragraph Text were scraped and saved to variables for aplciation in the Flask and MongoDB database.
 
 ### JPL Mars Space Images - Featured Image
 
