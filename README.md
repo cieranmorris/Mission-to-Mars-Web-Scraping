@@ -1,14 +1,14 @@
-# Web Scraping Homework - Mission to Mars
+# Mission to Mars Web Scraping 
 
 ## Background Information
 
-This project encompassed the creation of a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single, responsive HTML page.
+This project encompassed the creation of a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
-### NASA Mars News Scraping - News Title and Paragraph Text
+* Initial scraping was completed using programming dependencies including Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
-Initial scraping was completed using programming dependencies including Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+### NASA Mars News Title and Paragraph Text
 
-* The website of interest to scrape and collect information regarding the Mission to Mars was the [Mars News Site](https://redplanetscience.com/). Importantly, the latest News Title and Paragraph Text were scraped and saved to variables for aplciation in the Flask and MongoDB database.
+* One website of interest to scrape and collect information regarding the Mission to Mars was the [Mars News Site](https://redplanetscience.com/). Importantly, the latest News Title and Paragraph Text were scraped and saved to variables for application in the Flask and MongoDB database.
 
 ### JPL Mars Space Images - Featured Image
 
@@ -19,11 +19,6 @@ Initial scraping was completed using programming dependencies including Jupyter 
 * Make sure to find the image url to the full size `.jpg` image.
 
 * Make sure to save a complete url string for this image.
-
-```python
-# Example:
-featured_image_url = 'https://spaceimages-mars.com/image/featured/mars2.jpg'
-```
 
 ### Mars Facts
 
@@ -70,16 +65,6 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 ![final_app_part1.png](Images/final_app.png)
 
 - - -
-
-## Step 3 - Submission
-
-To submit your work to BootCampSpot, upload the following to your GitHub repository and then submit the link. 
-
-1. The Jupyter Notebook containing the scraping code used.
-
-2. Screenshots of your final application.
-
-Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
 ## Hints
 
