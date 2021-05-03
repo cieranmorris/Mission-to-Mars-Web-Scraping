@@ -1,8 +1,10 @@
 # Web Scraping Homework - Mission to Mars
 
-This project encompassed the creation of a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
+## Background Information
 
-## NASA Mars News Scraping - News Title and Paragraph Text
+This project encompassed the creation of a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single, responsive HTML page.
+
+### NASA Mars News Scraping - News Title and Paragraph Text
 
 Initial scraping was completed using programming dependencies including Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
