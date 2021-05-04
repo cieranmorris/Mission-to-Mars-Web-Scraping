@@ -12,19 +12,11 @@ This project encompassed the creation of a web application that scrapes various 
 
 ### JPL Mars Space Images - Featured Image
 
-* Visit the url for the Featured Space Image site [here](https://spaceimages-mars.com).
-
-* Use Splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
-
-* Make sure to find the image url to the full size `.jpg` image.
-
-* Make sure to save a complete url string for this image.
+* Current images of the surface of Mars are available for visualization through the [Featured Space Image site](https://spaceimages-mars.com). Using Splinter, the current full sized `.jpg` Featured Mars Image was scraped and it's complete url link was saved into a variable for future application.
 
 ### Mars Facts
 
-* Visit the Mars Facts webpage [here](https://galaxyfacts-mars.com) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
-
-* Use Pandas to convert the data to a HTML table string.
+* The [Mars Facts webpage] (https://galaxyfacts-mars.com) uses a data table to present Mars facts including Diameter, Mass, and Surface Temperature. Pandas was used to scrape this table and convert it to an HTML table string, which is then displayed on the landing page of the newly generated HTML website.
 
 ### Mars Hemispheres
 
